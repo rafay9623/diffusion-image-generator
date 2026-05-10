@@ -1,0 +1,9 @@
+streamlit
+torch
+torchvision
+numpy
+pillow
+matplotlib
+tqdm
+scikit-image
+torchmetrics
