@@ -46,7 +46,7 @@ st.markdown("""
         margin-bottom: 0.5rem;
     }
     </style>
-    """, unsafe_allow_view_for_change=True, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
 
 # ── Sidebar ──────────────────────────────────────────────────────────────────
 with st.sidebar:
