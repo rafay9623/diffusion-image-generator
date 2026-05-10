@@ -67,6 +67,9 @@ with st.sidebar:
     
     selected_ckpt = st.selectbox("Select Model Weight", ckpt_files if ckpt_files else ["No weights found"])
     
+    if not ckpt_files:
+        st.write("Debug: Files in root:", os.listdir("."))
+    
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     st.info(f"Running on: **{device.type.upper()}**")
 
